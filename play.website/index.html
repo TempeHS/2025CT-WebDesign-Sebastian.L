@@ -2,20 +2,75 @@
 
 <head>
     <title>A webpage of all time</title>
+    <style>
+        P {
+            letter-spacing: 5;
+            line-height: -100;
+            text-shadow: 2px 2px 5px red;
+            color: aliceblue;
+            text-transform: uppercase;
+            text-align: right;
+        }
+
+        h2 {
+            text-shadow: 0 0 3px #ff0000;
+            text-transform: uppercase;
+            text-align: center;
+            color: bisque;
+            line-height: 5;
+        }
+
+        h1 {
+            text-shadow: 1px 1px 2px black, 0 0 25px rgb(4, 4, 255), 0 0 5px rgb(0, 0, 22);
+            color: white;
+            text-align: right;
+            text-transform: uppercase;
+            line-height: 32;
+        }
+
+        body {
+            background-color: gainsboro;
+        }
+
+        h3 {
+            text-shadow: 2px 2px 4px #000000;
+            text-align: center;
+            color: plum;
+            text-transform: lowercase;
+            line-height: 32;
+        }
+
+        blockquote {
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px rgb(4, 4, 255), 0 0 5px rgb(0, 0, 22);
+            text-align: right;
+            text-transform: uppercase;
+        }
+
+        #Logo {
+            display: block;
+            width: 200px;
+            height: auto;
+            border: black;
+            border-radius: 0px;
+            border-top-right-radius: 20px;
+            margin-left: auto;
+            width: 150%;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Here Is</h1>
     <h2>Why I Think</h2>
     <h3>Drake Is The Best Artist</h3>
-    <p>
-    <p>
-        <em></em>
+
+    <em></em>
     <blockquote>"Sensational" "What A Time To be Alive"</blockquote>
-    <img
+    <img id="Logo"
         src="https://imageio.forbes.com/specials-images/imageserve/5ed578988b3c370006234c35/0x0.jpg?format=jpg&crop=1031,1031,x43,y49,safe&height=350&width=350&fit=bounds" />
     <H1>1.He Is One Of The Rappers of all time</H1>
-    <H3>Aubrey Drake Graham, known mononymously as Drake, is a Canadian rapper and
+    <P>Aubrey Drake Graham, known mononymously as Drake, is a Canadian rapper and
         singer. An influential figure in contemporary popular music, he has been credited with popularizing R&B
         sensibilities in
         hip hop artists. Gaining recognition by starring as Jimmy Brooks in the CTV teen drama series Degrassi: The
@@ -24,17 +79,17 @@
         Improvement in
         February of that year. He followed up with the mixtapes Comeback Season (2007) and So Far Gone (2009) before
         signing
-        with Young Money Entertainment.</H3>
+        with Young Money Entertainment.</P>
     <hr />
     <img src="https://i.makeagif.com/media/6-18-2016/seTetS.gif">
     <button>Button</button>
     <h1>2.He Is Canadian🦅🦅🍁🍁</h1>
     <a href="https://www.youtube.com/watch?v=vPKp29Luryc">
-        <img
+        <img id="canada"
             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABkCAMAAAD0WI85AAAAb1BMVEXVKx7////VJhj77e3ZTEXSAADVKRvTEwD45OPUIxP11dTUHgv12NfTGwT66unqp6TYQzrxxsTXPDP99/fpoJ3sr67jg3/zz87vu7nkjYzVLybhdnPifHrbWVLWMizkh4XfbWfmlJPaUkzcXFndZV/LoNpvAAAEO0lEQVR4nO2ba5uqIBCAQXcYCTUvmbZqnaz//xtParVdwHR3zwF6nC+7Tzk0LzDMMCAhE8X5cOk/F/fDmWrXZJlBZpAZZAaZQWwBCcM3Adls3gPEI8R7C5AN4tQhMRLEE4yJiUNiJMgmICSYOCQmgoTICGE4beEyEWSNrRaubQfxPlmrxT4neYmBICX2aljaCPLV+yFc9CCUfG06yLJenP+rgoteUJ0/WtRLa0A8EGX3lM/ZRY9xvzOxEmDPiKTAcLuiXx7SSuclyy0ySK0BoTUnDLbFCm81cVVsgRFev9Y3BmTXuoaDeK+K2JoX7CwCyVDdAGYWgcRc3QCPLQIJt0ylz7Yj0i5jQGikNMSJRqibA/JHqPTFH6tAlqDSh9dx3SSQhRpk8VrbIJBQuf6O2mJpB8ku2UdaKxZgXl8fGYgnukFCco3alcLbxSUJpjuiHhvdIEuAi50rxdzC1YUUBtz+/4O47m0qmzhXQ2MVSHwFdZIb1dS9a/a/gyzgsMl8emP8uZ9DxbJ13ih2y/MFivrZ5ni3mmmYWlEQICfNPvZS99g5OPYkXJqkMN5zdOPFj27qxfuGcAyCu4CvAWSPnXkIom762cSg62j5stVvRmLoKbGpBWCHjHvNIPnVXuf621BQlbd3LlTAsw7PNYO0Dv70iJO3vS7Tbkdr4UhUEqobZC3peYfkdB08f37aHq5pziRGPlQidYBIsyqHJaqAmMg4HjMwHSCudOvB1Bsr2TdO5GoHoTvl1mO8iIeChBYQuVdPE4gNAKGonEZjhSE1AaSSrk9T5FoX1gsiX2inSPB4DKQDxN8NFOPGCu58zSBeRX6B40RCSk8nSAE/9/ReGHYZmrYRicVAcXSKcHG7AmvwES/5namV3J3+6HD2tPyNgFgakKLQHfzQTxg8HploqqIUwY8chQfFY4u6ykF59IOYGET5U4Pa6lru4dsujwdZe/oKdN/NU+SXVHRWGjP4xm87IC8Aay2Z+snkQQkSX96W3tqv10x0FGxUdyB0F7GrSbERHnch5oDQDEcb4ODAGZx2EFrwkbGR86coaBTIyYRRJOJj8ATOABCaqo/YbxqJhm8ImQBCyxF1LvHiYqAJIKn69saXsK35I1KMCiY45OpmgNzNLB4AwMn7+enPXa7/Ym4ZAJL21QjGBSJAVGZ53gjR5HlWRgCIoj+SYzg4twwAyaA9hwNSV/vinIC45POs4hWrqibQnrYpskVzQA4sajaFH950uPtxq5KGfrFpInYwGySNn/NAN4qeVbx4aG7pB5FJuB1zac4CkLd5NckTU1/oMRUE8T1AfADFjtYykAWMuv5nPkgMj2edloIUAMMpoi0gGQznI9aALHGozmARyB7vL2NZC7JDHPHKiAUgZRBMenfPWJCjEMe3AGk4b94CJEIc886I+SB5HD8frtkI8g2ZQWaQGWQGeXuQv15zReZeRKz1AAAAAElFTkSuQmCC">
     </a>
     <h1>3.He Was In A Wheelchair😎</h1>
     <a href="https://www.youtube.com/watch?v=-zKGG3s43cI">
-        <img src="https://pbs.twimg.com/media/ElzuXtYXgAEraBP.jpg" a>
+        <img src="https://pbs.twimg.com/media/ElzuXtYXgAEraBP.jpg">
 
 </html>
