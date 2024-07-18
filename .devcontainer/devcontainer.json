@@ -29,7 +29,8 @@
 				"ms-vscode-remote.remote-containers",
 				"GitHub.codespaces",
 				"miramac.vscode-exec-node",
-				"McCarter.start-git-bash"
+				"McCarter.start-git-bash",
+				"ms-vscode.live-server"
 			]
 		}
 	},
