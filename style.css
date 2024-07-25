@@ -1,26 +1,14 @@
-.TopText{}
-.H1{
-font-family:archivo_black  ;
-}
-
-.buttonhover {
-  background-color: white; 
-  color: black; 
+.btn1:hover {
+  border-color: aliceblue;
+  box-shadow: inset 300px 0 0 0 #F2F6D0;
+  cursor: pointer;
 
 }
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">);
 
- 
-      .Responsive{
-        col-2:
-        col-sm-18;
-        col-md-3:
-        col-lg-3;
-        col-md-6:
-        c0l-md-3
-        col-3:
-        col-lg-6:
-        col-md-4:
-        col-sm-12:
-        col-lg-12:
-        col-md-12:
-    }
+.reciperesize{
+  width: 200px;
+  height: 150px;
+}
